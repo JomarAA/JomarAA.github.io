@@ -7,6 +7,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#skills-logo {
+	width: 100px;
+	height: 100px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+#skills {
+	display:flex;
+	gap: 50px;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 150px;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -72,6 +87,24 @@ input, select, textarea {
 	appearance: none;
 }
 
+#image-avatar50 {
+	max-height: 400px;
+	max-width: 3600px;
+}
+
+#contact-container{
+display: flex;
+justify-content: center;
+gap: 30px
+}
+
+#contact-icons {
+	display: flex;
+	flex-direction: column;
+	gap: 70px;
+	align-items: start;
+
+}
 /* Basic */
 
 	html {
@@ -214,6 +247,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
+		margin-top: 110px;
 		max-width: 100%;
 		width: 1400px;
 	}
@@ -262,11 +296,16 @@ input, select, textarea {
 
 	.row {
 		display: flex;
-		flex-wrap: wrap;
-		box-sizing: border-box;
-		align-items: stretch;
 	}
 
+	.col-4 {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+		gap: 20px;
+	}
+/*
 		.row > * {
 			box-sizing: border-box;
 		}
@@ -499,9 +538,9 @@ input, select, textarea {
 
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 80px;
-				}
+				} */
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.row {
 				display: flex;
@@ -1740,7 +1779,7 @@ input, select, textarea {
 
 		.row > section, .row > article {
 			margin-bottom: 0;
-		}
+		} */
 
 /* Image */
 
@@ -1755,7 +1794,7 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
+			width: 45px;
 			height: 48px;
 			background: #f00;
 		}
