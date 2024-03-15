@@ -1807,6 +1807,8 @@ gap: 30px
 		.image.fit {
 			display: block;
 			width: 100%;
+			max-width: 900px;
+			max-height: 400px;
 		}
 
 		.image.featured {
